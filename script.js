@@ -8,7 +8,6 @@
 //   { name: "İslamiın kızına", author: "Hoca Mehmet", price: "86.000" },
 // ];
 
-
 // for (let i = 0; i < books.length; i++) {
 //   if (books[i].price <= 70) {
 //     console.log(`İstediğiniz kitab ${books[i].name}`);
