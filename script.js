@@ -16,3 +16,9 @@
 //     `İstediğiniz kitab'ın sahibi: ${books[i].author}, fıyatı:${books[i].price}.`
 //   );
 // }
+
+// // CodeWars exercise-1
+
+// function sumTwoSmallestNumbers(numbers) {  
+//   var variable = numbers.sort(function(a, b){return a - b;});
+//   var result = 0;
