@@ -35,14 +35,24 @@
 // //Code here
 // };
 
-// CodeWars exercise-2
+// Exercise from CodeWars, named "Powers of 2"
 
-// < ---- In progress... ---- >
+function powersOfTwo(n) {
+  const powers = [];
 
-let count = 0;
-let result = 0;
+  for (let i = 0; i <= n; i++) {
+    let power = Math.pow(2, i);
 
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15],
+    powers.push(power);
+  }
+
+  return powers;
+}
+
+let powers = powersOfTwo(5);
+console.log(powers);
+
+
 
 for(i = 0; i < ){
 
